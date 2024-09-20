@@ -1,5 +1,6 @@
 # Muko-Windows (WIP) (Education Purpose)
 - Research on the ideal Windows.
+- Link for Discord: https://discord.gg/W496reuwrM
 
 ---
 
@@ -19,3 +20,5 @@ TODO:
 - [ ] List of nice Windows Apps alternative to the current popular ones
 - [ ] Backup guide and how to switch to Linux (and the opposite)
 
+---
+## Disclaimer: Later
