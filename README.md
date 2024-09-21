@@ -6,12 +6,18 @@
 
 Current Workflow
 1. Download ISO from https://github.com/gravesoft/msdl
-2. Get your unattend.xml from https://github.com/memstechtips/UnattendedWinstall or make it yourself using https://schneegans.de/windows/unattend-generator/
-3. Insert the unattend.xml using Ventoy https://youtu.be/4AGZQJTyCOs
-4. Install Windows
-5. Activate Windows preferably to IoT Enterprise LTSC
+2. Get your unattend.xml from https://github.com/memstechtips/UnattendedWinstall/blob/main/Standard/autounattend.xml
+3. Use the Ventoy method to boot it https://github.com/memstechtips/UnattendedWinstall?tab=readme-ov-file#method-3-use-ventoy-auto-install-plugin---video-tutorial
+4. Install Windows, during the installation either choose Pro N for Workstations or preferably IoT Enterprise LTSC
+5. Activate Windows
 6. Run Debloat with https://github.com/Raphire/Win11Debloat
+```
+& ([scriptblock]::Create((irm "https://win11debloat.raphi.re/")))
+```
 7. Install winget with https://github.com/asheroto/winget-install
+```
+irm asheroto.com/winget | iex
+```
 
 TODO:
 - [ ] Change Windows to EU to enable EEA features
