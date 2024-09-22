@@ -22,6 +22,7 @@ irm asheroto.com/winget | iex
 TODO:
 - [ ] Change Windows to EU to enable EEA features
 - [ ] Install WSL2 best practice
+- [ ] And Docke too
 - [ ] Install Android Emulator
 - [ ] List of nice Windows Apps alternative to the current popular ones
 - [ ] Backup guide and how to switch to Linux (and the opposite)
